@@ -1,4 +1,3 @@
-#!/bin/bash
 
 # Get the total RAM in GB
 total_ram=$(free -g | awk 'FNR == 2 {print $2}')
