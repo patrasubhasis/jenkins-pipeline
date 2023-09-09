@@ -9,7 +9,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'OS Info'
-                sh 'ssh sp@192.168.60.135 bash test.sh'
+                sh 'ssh sp@192.168.60.135 bash usage.sh'
             }
         }
     }
